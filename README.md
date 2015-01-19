@@ -1,4 +1,4 @@
-linked-edit-rules
-=================
+LER-frontend
+============
 
 Linked Edit Rules web frontend
