@@ -58,33 +58,36 @@
 	<p>This page showcases results of using Linked Edit Rules to check the statistical consistency of arbitrary RDF Data Cube exposed on the Web.</p>
 
 	<h2>Toy dataset</h2>
-	<p>The following table shows inconsisntent observations found in <a href="https://raw.githubusercontent.com/albertmeronyo/linked-edit-rules/master/data/people.ttl">this toy dataset</a> by applying <a href="https://raw.githubusercontent.com/albertmeronyo/linked-edit-rules/master/data/people-rules.ttl">this set of LER</a>.</p>
+	<p>The following table shows inconsisntent observations found in <a href="https://raw.githubusercontent.com/albertmeronyo/linked-edit-rules/master/data/people.ttl">this toy dataset</a> by applying <a href="https://raw.githubusercontent.com/albertmeronyo/linked-edit-rules/master/data/people-rules.ttl">this set of LER</a> using <a href="https://github.com/albertmeronyo/linked-edit-rules/tree/master/src">QBsistent</a>.</p>
 	<p>The full provenance track (as <a href="http://www.w3.org/TR/prov-primer/" target="_blank">PROV</a>) with annotated inconsistent data points (as <a href="http://www.openannotation.org/spec/core/" target="_blank">OA</a>) can be found <a href="https://raw.githubusercontent.com/albertmeronyo/linked-edit-rules/master/data/people-prov.ttl">here</a>.</p>
 
 	<table class="table table-hover table-codensed table-responsive">
 	  <tr>
-	    <td>ns1:o2</td><td>leri:mix6</td>
+	    <td><b>Inconsistent data point</b></td><td><b>Violated rule</b></td>
 	  </tr>
 	  <tr>
-	    <td>ns1:o2</td><td>leri:cat5</td>
+	    <td><a href="http://lod.cedar-project.nl:8888/linked-edit-rules/resource/o2">ns1:o2</a></td><td><a href="http://lod.cedar-project.nl:8888/linked-edit-rules/resource/mix6">leri:mix6</a></td>
 	  </tr>
 	  <tr>
-	    <td>ns1:o3</td><td>leri:num4</td>
+	    <td><a href="http://lod.cedar-project.nl:8888/linked-edit-rules/resource/o2">ns1:o2</a></td><td><a href="http://lod.cedar-project.nl:8888/linked-edit-rules/resource/cat5">leri:cat5</a></td>
 	  </tr>
 	  <tr>
-	    <td>ns1:o3</td><td>leri:mix6</td>
+	    <td><a href="http://lod.cedar-project.nl:8888/linked-edit-rules/resource/o3">ns1:o3</a></td><td><a href="http://lod.cedar-project.nl:8888/linked-edit-rules/resource/num4">leri:num4</a></td>
 	  </tr>
 	  <tr>
-	    <td>ns1:o4</td><td>leri:num3</td>
+	    <td><a href="http://lod.cedar-project.nl:8888/linked-edit-rules/resource/o3">ns1:o3</a></td><td><a href="http://lod.cedar-project.nl:8888/linked-edit-rules/resource/mix6">leri:mix6</a></td>
 	  </tr>
 	  <tr>
-	    <td>ns1:o5</td><td>leri:num2</td>
+	    <td><a href="http://lod.cedar-project.nl:8888/linked-edit-rules/resource/o4">ns1:o4</a></td><td><a href="http://lod.cedar-project.nl:8888/linked-edit-rules/resource/num3">leri:num3</a></td>
 	  </tr>
 	  <tr>
-	    <td>ns1:o5</td><td>leri:mix8</td>
+	    <td><a href="http://lod.cedar-project.nl:8888/linked-edit-rules/resource/o5">ns1:o5</a></td><td><a href="http://lod.cedar-project.nl:8888/linked-edit-rules/resource/num2">leri:num2</a></td>
 	  </tr>
 	  <tr>
-	    <td>ns1:o5</td><td>leri:cat5</td>
+	    <td><a href="http://lod.cedar-project.nl:8888/linked-edit-rules/resource/o5">ns1:o5</a></td><td><a href="http://lod.cedar-project.nl:8888/linked-edit-rules/resource/mix8">leri:mix8</a></td>
+	  </tr>
+	  <tr>
+	    <td><a href="http://lod.cedar-project.nl:8888/linked-edit-rules/resource/o5">ns1:o5</a></td><td><a href="http://lod.cedar-project.nl:8888/linked-edit-rules/resource/cat5">leri:cat5</a></td>
 	  </tr>
 	</table>
 
