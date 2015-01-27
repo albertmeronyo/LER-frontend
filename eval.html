@@ -57,6 +57,37 @@
 	<h1>Statistical Conistency Tests</h1>
 	<p>This page showcases results of using Linked Edit Rules to check the statistical consistency of arbitrary RDF Data Cube exposed on the Web.</p>
 
+	<h2>Toy dataset</h2>
+	<p>The following table shows inconsisntent observations found in <a href="https://raw.githubusercontent.com/albertmeronyo/linked-edit-rules/master/data/people.ttl">this toy dataset</a> by applying <a href="https://raw.githubusercontent.com/albertmeronyo/linked-edit-rules/master/data/people-rules.ttl">this set of LER</a>.</p>
+	<p>The full provenance track (as <a href="http://www.w3.org/TR/prov-primer/" target="_blank">PROV</a>) with annotated inconsistent data points (as <a href="http://www.openannotation.org/spec/core/" target="_blank">OA</a>) can be found <a href="https://raw.githubusercontent.com/albertmeronyo/linked-edit-rules/master/data/people-prov.ttl">here</a>.</p>
+
+	<table class="table table-hover table-codensed table-responsive">
+	  <tr>
+	    <td>ns1:o2</td><td>leri:mix6</td>
+	  </tr>
+	  <tr>
+	    <td>ns1:o2</td><td>leri:cat5</td>
+	  </tr>
+	  <tr>
+	    <td>ns1:o3</td><td>leri:num4</td>
+	  </tr>
+	  <tr>
+	    <td>ns1:o3</td><td>leri:mix6</td>
+	  </tr>
+	  <tr>
+	    <td>ns1:o4</td><td>leri:num3</td>
+	  </tr>
+	  <tr>
+	    <td>ns1:o5</td><td>leri:num2</td>
+	  </tr>
+	  <tr>
+	    <td>ns1:o5</td><td>leri:mix8</td>
+	  </tr>
+	  <tr>
+	    <td>ns1:o5</td><td>leri:cat5</td>
+	  </tr>
+	</table>
+
       <hr>
 
       <footer>
