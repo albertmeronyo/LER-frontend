@@ -58,6 +58,7 @@
 	<h1>Statistical Conistency Tests</h1>
 	<p>This page showcases results of using Linked Edit Rules to check the statistical consistency of arbitrary RDF Data Cube exposed on the Web.</p>
 
+	<a name="toy-dataset"></a>
 	<h2>Toy dataset</h2>
 	<p>The following table shows inconsistent observations found in <a href="https://raw.githubusercontent.com/albertmeronyo/linked-edit-rules/master/data/people.ttl">this toy dataset</a> by applying <a href="https://raw.githubusercontent.com/albertmeronyo/linked-edit-rules/master/data/people-rules.ttl">this set of LER</a> using <a href="https://github.com/albertmeronyo/linked-edit-rules/tree/master/src">QBsistent</a>.</p>
 	<p>The full provenance track (as <a href="http://www.w3.org/TR/prov-primer/" target="_blank">PROV</a>) with annotated inconsistent data points (as <a href="http://www.openannotation.org/spec/core/" target="_blank">OA</a>) can be found <a href="https://raw.githubusercontent.com/albertmeronyo/linked-edit-rules/master/data/people-prov.ttl">here</a>.</p>
@@ -92,6 +93,7 @@
 	  </tr>
 	</table>
 
+	<a name="synthetic-dataset"></a>
 	<h2>Synthetic dataset</h2>
 	<p>The following table shows inconsistent observations found in <a href="https://raw.githubusercontent.com/albertmeronyo/linked-edit-rules/master/data/test.ttl">this synthetic dataset</a> by applying <a href="https://raw.githubusercontent.com/albertmeronyo/linked-edit-rules/master/data/people-rules.ttl">this set of LER</a> using <a href="https://github.com/albertmeronyo/linked-edit-rules/tree/master/src">QBsistent</a>. The test data are <a href="https://github.com/albertmeronyo/linked-edit-rules/blob/master/src/QBrand.py">randomly generated</a>, but inconsistent observations are introduced on purpose to check whether QBsistent and the LER can find them.</p>
 	<p>The full provenance track (as <a href="http://www.w3.org/TR/prov-primer/" target="_blank">PROV</a>) with annotated inconsistent data points (as <a href="http://www.openannotation.org/spec/core/" target="_blank">OA</a>) can be found <a href="https://raw.githubusercontent.com/albertmeronyo/linked-edit-rules/master/data/test-prov.ttl">here</a>.</p>
@@ -363,6 +365,12 @@
 <tr>
 	    <td><a href="http://lod.cedar-project.nl:8888/linked-edit-rules/resource/thisObs10099">leri:thisObs10099</a></td><td><a href="http://lod.cedar-project.nl:8888/linked-edit-rules/resource/mix8">leri:mix8</a></td></tr>
 	</table>
+
+	<a name="census-dataset"></a>
+	<h2>Dutch Historical Censuses MSC</h2>
+	<p>The following table shows inconsistent observations found in <a href="http://lod.cedar-project.nl/cedar/">the Dutch	Historical Censuses MSC dataset</a> by applying <a href="https://raw.githubusercontent.com/albertmeronyo/linked-edit-rules/master/data/census-rules.ttl">this set of LER</a> using <a href="https://github.com/albertmeronyo/linked-edit-rules/tree/master/src">QBsistent</a>.</p>
+
+	<p>Given its considerable size, the table is available for download as a <a href="cedar-inconsistent.csv">CSV file</a>.</p>
 
       <hr>
 
